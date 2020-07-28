@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap');
+
+.nav-container {
+
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+.list-item {
+    margin: 10px;
+    font-size:  25px;
+    font-family: 'Spectral SC', serif;
+}
+
+.list-item:hover {
+    text-decoration: underline white;
+    cursor: pointer;
+}
+
