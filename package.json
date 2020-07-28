@@ -7,8 +7,10 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "massive": "^6.6.0",
+    "nodemailer": "^6.4.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
@@ -36,5 +38,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "./server/index.js",
+  "proxy": "http://localhost:4005"
 }
