@@ -1,5 +1,6 @@
 import React from 'react';
 import "./styles/App.scss"
+import Welcome from './components/Welcome';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import About from './components/About';
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
+      <Welcome/>
       <Skills/>
       <Projects/>
       <About/>
