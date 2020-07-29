@@ -15,17 +15,17 @@ function Welcome() {
                 <img
                     className="welcome-icon-image" 
                     src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fgithub-153-675523.png?v=1596049618612" 
-                    alt="github icon image"
+                    alt="github icon"
                 />
                 <img
                     className="welcome-icon-image-linkedin" 
                     src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Flinkedin-32-114604.png?v=1596049859369" 
-                    alt="linkedIn icon image"
+                    alt="linkedIn icon"
                 />
                 <img
                     className="welcome-icon-image" 
                     src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Ffacebook%20black.png?v=1596050184365" 
-                    alt="Facebook icon image"
+                    alt="Facebook icon"
                 />
                 
                 </div>
