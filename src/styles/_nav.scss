@@ -11,7 +11,7 @@
     justify-content: flex-end;
     align-items: center;
     background-color: black;
-    color: white;
+    color: #faf9ed;
     padding: 25px;
 }
 
@@ -21,8 +21,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.list-item-break {
+    margin: 10px;
+    font-size:  25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #eb4034;
+}
+
 .list-item:hover {
-    text-decoration: underline red;
+    text-decoration: underline #eb4034;
     cursor: pointer;
 }
 

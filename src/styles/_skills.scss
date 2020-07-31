@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.skills-container {
+    background-color: black;
+    width: 100vw;
+    height: 30vh;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .skills-heading {
+        color: #faf9ed;
+        font-size: 34px;
+        margin: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .skills-images {
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        .skills-images:hover {
+            cursor: pointer;
+            box-shadow: 2px 2px 12px 2px #eb4034;
+        }
+    }
+}
+

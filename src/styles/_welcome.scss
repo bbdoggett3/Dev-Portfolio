@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 .welcome-container {
-    background-color: lightgrey;
+    background-color: #faf9ed;
     width: 100vw;
     height: 60vh;
 }
@@ -70,14 +70,14 @@
         border-radius: 8px;
         border: 1px solid black;
         background-color: black;
-        color:white;
+        color:#faf9ed;
         box-shadow: 4px 2px 5px 2px grey;
         font-family: 'Open Sans', sans-serif;
         font-size: 20px;
     }
 
     .welcome-btn:hover {
-        border: 2px solid red;
+        border: 2px solid #eb4034;
         cursor: pointer;
         box-shadow: none;
 

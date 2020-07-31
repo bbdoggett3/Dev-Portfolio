@@ -6,11 +6,11 @@ function Welcome() {
             <div className="welcome-content">
                 <img
                     className="welcome-profile-image" 
-                    src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fbobs%20burger.png?v=1595446594221" 
+                    src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fme.jpg?v=1569425179160" 
                     alt="profile of Developer"
                 />
                 <h2 className="welcome-header">Hello World! My name is Benjamin Doggett</h2>
-                <p className="welcome-text">I am a Full-Stack Web Developer / Software Engineer</p>
+                <p className="welcome-text">I am a Full-Stack Web Developer / Software Engineer / UX-Designer</p>
                 <div className="social-media-links">
                 <img
                     className="welcome-icon-image" 
