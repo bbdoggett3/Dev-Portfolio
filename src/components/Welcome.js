@@ -4,11 +4,6 @@ function Welcome() {
     return(
         <div className="welcome-container">
             <div className="welcome-content">
-                <img
-                    className="welcome-profile-image" 
-                    src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fme.jpg?v=1569425179160" 
-                    alt="profile of Developer"
-                />
                 <h2 className="welcome-header">Hello World! My name is Benjamin Doggett</h2>
                 <p className="welcome-text">I am a Full-Stack Web Developer / Software Engineer / UX-Designer</p>
                 <div className="social-media-links">
@@ -39,7 +34,11 @@ function Welcome() {
                 <button className="welcome-btn">Contact</button>
 
             </div>
-
+                <img
+                    className="welcome-profile-image" 
+                    src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fben-transparent.png?v=1596323826433" 
+                    alt="profile of Developer"
+                />
         </div>
     )
 }

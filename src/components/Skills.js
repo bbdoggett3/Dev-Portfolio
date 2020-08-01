@@ -34,7 +34,7 @@ function Skills(props) {
                                    <h1 className="skill-name">JavaScript</h1>
                               </div>
                               <h3 className="skill-what-is-header">What is JavaScript?</h3>
-                              <p className="skill-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
+                              <p className="skill-description">JavaScript is the Programming Language for the Web. It can update and change both HTML and CSS. Lastly, it can calculate, manipulate and validate data. </p>
                               <h3 className="skill-what-is-header">Personal Application</h3>
                               <p className="skill-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
 
