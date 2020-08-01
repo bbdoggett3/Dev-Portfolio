@@ -1,6 +1,13 @@
-import React from 'react';
+import React, {useState}from 'react';
 
-function Skills() {
+function Skills(props) {
+     const [showSkill, setShowSkill] = useState(false);
+
+     function toggleShowSkill() {
+          setShowSkill(!showSkill);
+     }
+
+     console.log(showSkill)
     return(
         <div className="skills-container">
             <div className="skills-content">
@@ -9,7 +16,22 @@ function Skills() {
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fjavascript-icon.png?v=1594835510447" 
                          alt="javascript logo"
+                         onClick={() => toggleShowSkill()}   
                     />
+
+                    <div className= {`${showSkill ? "skill-open" : "skill-closed"}`}>
+                         <div className="skill-open-container">
+                         <img className="exit-btn-img"
+                         src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fexit-%20trans.png?v=1596319300952" 
+                         alt="exit"
+                         onClick={() => toggleShowSkill()}
+                    />
+                         </div>
+                    </div>
+
+
+
+
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fhtml.png?v=1596218814366" 
                          alt="html logo"

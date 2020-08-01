@@ -38,6 +38,39 @@
             cursor: pointer;
             box-shadow: 2px 2px 12px 2px #eb4034;
         }
+
+        .skill-open {
+            position: absolute;
+            top: 120px;
+            width: 500px;
+            height: 500px;
+            background-color: #faf9ed;
+            border-radius: 8px;
+            box-shadow: 12px 4px 25px 4px black;
+
+            .skill-open-container {
+                display: flex;
+                flex-direction: column;
+
+                .exit-btn-img {
+                    position: absolute;
+                    top: 5px;
+                    right: 5px;
+                    width: 45px;
+                    height: 27px;
+                } 
+
+                .exit-btn-img:hover {
+                    opacity: 0.6;
+                    cursor: pointer;
+                }
+
+            }
+        }
+
+        .skill-closed {
+            display: none;
+        }
     }
 }
 
