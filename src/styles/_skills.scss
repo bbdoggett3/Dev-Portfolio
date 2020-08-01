@@ -65,6 +65,35 @@
                     cursor: pointer;
                 }
 
+                .skill-title-display {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    .skill-image-open {
+                        width: 100px;
+                        height: 100px;
+                        margin: 10px
+                    }
+
+                    .skill-name {
+                        font-weight: bolder;
+                        font-size: 35px;
+                    }
+                }
+
+                .skill-what-is-header {
+                    margin: 10px;
+                    font-weight: bolder;
+                    font-size: 20px;
+                }
+
+                .skill-description {
+                    margin: 10px;
+                }
+
             }
         }
 

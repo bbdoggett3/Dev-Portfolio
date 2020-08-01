@@ -21,11 +21,23 @@ function Skills(props) {
 
                     <div className= {`${showSkill ? "skill-open" : "skill-closed"}`}>
                          <div className="skill-open-container">
-                         <img className="exit-btn-img"
-                         src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fexit-%20trans.png?v=1596319300952" 
-                         alt="exit"
-                         onClick={() => toggleShowSkill()}
-                    />
+                              <img className="exit-btn-img"
+                                   src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fexit-%20trans.png?v=1596319300952" 
+                                   alt="exit"
+                                   onClick={() => toggleShowSkill()}
+                              />
+                              <div className="skill-title-display">
+                                   <img className="skill-image-open"
+                                        src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fjavascript-icon.png?v=1594835510447" 
+                                        alt="javascript logo"
+                                   />
+                                   <h1 className="skill-name">JavaScript</h1>
+                              </div>
+                              <h3 className="skill-what-is-header">What is JavaScript?</h3>
+                              <p className="skill-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
+                              <h3 className="skill-what-is-header">Personal Application</h3>
+                              <p className="skill-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
+
                          </div>
                     </div>
 
