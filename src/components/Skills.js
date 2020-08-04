@@ -40,18 +40,17 @@ function Skills(props) {
 
                          </div>
                     </div>
-
-
-
-
+                    {/* What is HTML? Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. */}
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fhtml.png?v=1596218814366" 
                          alt="html logo"
                     />
+                    {/* Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. */}
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FCss.png?v=1596218908795" 
                          alt="css logo"
                     />
+                    
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FSass.png?v=1596219226957" 
                          alt="Sass logo"
