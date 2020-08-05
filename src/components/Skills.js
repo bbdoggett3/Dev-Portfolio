@@ -50,7 +50,7 @@ function Skills(props) {
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FCss.png?v=1596218908795" 
                          alt="css logo"
                     />
-                    
+                    {/* Sass stands for Syntactically Awesome Stylesheet. Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. SassScript is the scripting language itself. It also creates less redundancy in your CSS */}
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FSass.png?v=1596219226957" 
                          alt="Sass logo"
