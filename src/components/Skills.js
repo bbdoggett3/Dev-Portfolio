@@ -55,6 +55,7 @@ function Skills(props) {
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FSass.png?v=1596219226957" 
                          alt="Sass logo"
                     />
+                    {/* Is a React library that manages the dom and builds user interfaces */}
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fanother%20react%20logo.png?v=1596218569826" 
                          alt="React logo"
