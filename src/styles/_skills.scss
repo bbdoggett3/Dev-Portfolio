@@ -14,7 +14,7 @@
     align-items: center;
 
     .skills-heading {
-        color: #faf9ed;
+        color: $cream;
         font-size: 34px;
         margin: 15px;
         font-family: 'Open Sans', sans-serif;
@@ -47,7 +47,6 @@
             background-color: #faf9ed;
             border-radius: 8px;
             box-shadow: 12px 4px 25px 4px black;
-            border: solid 2px #eb4034;
 
             .skill-open-container {
                 display: flex;

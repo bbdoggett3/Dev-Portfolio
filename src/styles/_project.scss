@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.projects-container {
+    width: 100vw;
+    height: 30vh;
+    background-color: black;
+    border-top: solid 20px $cream;
+
+    .projects-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .projects-heading {
+            font-size: 34px;
+            margin: 15px;
+            font-family: 'Open Sans', sans-serif;
+            color: $cream;
+        }
+    }
+}
