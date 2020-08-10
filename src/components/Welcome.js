@@ -5,7 +5,7 @@ function Welcome() {
         <div className="welcome-container">
             <div className="welcome-content">
                 <h2 className="welcome-header">Hello World! My name is Benjamin Doggett</h2>
-                <p className="welcome-text">I am a Full-Stack Web Developer / Software Engineer / UX-Designer</p>
+                <p className="welcome-text">Web Developer / Software Engineer / UX-Designer</p>
                 <div className="social-media-links">
                     <a href="https://github.com/bbdoggett3">
                         <img

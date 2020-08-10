@@ -3,7 +3,7 @@
 .skills-container {
     background-color: black;
     width: 100vw;
-    height: 30vh;
+    height: 40vh;
 }
 
 .skills-content {
@@ -17,6 +17,7 @@
         color: $cream;
         font-size: 34px;
         margin: 15px;
+        padding: 20px;
         font-family: 'Open Sans', sans-serif;
     }
 
@@ -24,8 +25,9 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
+        width: 80em;
 
         .skills-images {
             width: 60px;

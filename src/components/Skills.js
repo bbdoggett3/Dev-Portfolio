@@ -123,6 +123,22 @@ function Skills(props) {
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fgit-trans.png?v=1596221894753" 
                          alt="Git logo"
                     />
+                    <img className="skills-images"
+                         src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fphp.png?v=1597081971654" 
+                         alt="PHP logo"
+                    />
+                    <img className="skills-images"
+                         src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FVue.png?v=1597081543362" 
+                         alt="Vue.js logo"
+                    />
+                    <img className="skills-images"
+                         src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fgolang.png?v=1597082261848" 
+                         alt="Go logo"
+                    />
+                    <img className="skills-images"
+                         src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fpostman.png?v=1597082394179" 
+                         alt="Postman logo"
+                    />
 
                 </div>
 

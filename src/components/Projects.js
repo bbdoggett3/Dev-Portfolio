@@ -22,6 +22,14 @@ function Projects() {
                         />
                         <h2 className="project-title">Codepound</h2>                        
                     </div>
+                    <div className="projects-info">
+                        <img
+                            className="project-img" 
+                            src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FSDD.png?v=1597081124404"
+                            alt="Software design document" 
+                        />
+                        <h2 className="project-title">SDD Family Finance</h2>                        
+                    </div>
 
                 </div>
             </div>

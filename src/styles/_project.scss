@@ -36,8 +36,15 @@
                 .project-img {
                     width: 390px;
                     height: 350px;
-                    border: solid 2px black;
+                    // border: solid 2px black;
                     margin: 20px;
+                    border-radius: 8px;
+                    box-shadow: 2px 6px 9px 2px grey;
+                }
+
+                .project-img:hover {
+                    opacity: 0.6;
+                    cursor: pointer;
                 }
 
                 .project-title {
