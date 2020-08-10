@@ -36,7 +36,7 @@ function Welcome() {
             </div>
                 <img
                     className="welcome-profile-image" 
-                    src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fben-transparent.png?v=1596323826433" 
+                    src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FBob%20tran.png?v=1597085547572" 
                     alt="profile of Developer"
                 />
         </div>
