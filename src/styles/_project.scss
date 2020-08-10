@@ -2,9 +2,9 @@
 
 .projects-container {
     width: 100vw;
-    height: 30vh;
-    background-color: black;
-    border-top: solid 20px $cream;
+    height: 60vh;
+    background-color: $cream;
+    // border-top: solid 20px $cream;
 
     .projects-content {
         display: flex;
@@ -17,7 +17,34 @@
             font-size: 34px;
             margin: 15px;
             font-family: 'Open Sans', sans-serif;
-            color: $cream;
+        }
+
+        .projects {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .projects-info {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+
+                .project-img {
+                    width: 390px;
+                    height: 350px;
+                    border: solid 2px black;
+                    margin: 20px;
+                }
+
+                .project-title {
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+    
         }
     }
 }
