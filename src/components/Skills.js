@@ -139,6 +139,18 @@ function Skills(props) {
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fpostman.png?v=1597082394179" 
                          alt="Postman logo"
                     />
+                    <img className="skills-images"
+                         src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fandroid%20tran.png?v=1597083482349" 
+                         alt="Android logo"
+                    />
+                    <img className="skills-images"
+                         src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fheroku%20trans.png?v=1597083610683" 
+                         alt="Heroku logo"
+                    />
+                    <img className="skills-images"
+                         src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fvs%20code.png?v=1597084330782" 
+                         alt="Visual Studios logo"
+                    />
 
                 </div>
 
