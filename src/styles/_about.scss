@@ -21,7 +21,7 @@
 
         .about {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-evenly;
             align-items: center;
@@ -29,11 +29,13 @@
             .about-img {
                 border-radius: 190px;
                 width: 400px;
-                height: 400px
+                height: 400px;
+                margin: 25px;
             }
 
             .about-info {
                 color: white;
+                width: 35em;
             }
         }
 
