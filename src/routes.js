@@ -9,8 +9,8 @@ import Welcome from './components/Welcome';
 
 export default(
     <Switch>
-        <Route exact path="/" component={App}/>
-        <Route path="/welcome" component={Welcome}/>
+        <Route exact path="/" component={Welcome}/>
+        {/* <Route path="/welcome" component={Welcome}/> */}
         <Route path="/skillsMore" component={SkillsMore}/>
         <Route path="/projects" component={Projects}/>
         <Route path="/about" component={About}/>
