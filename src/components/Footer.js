@@ -4,7 +4,7 @@ function Footer() {
     return(
         <div className="footer-container">
             <div className="footer-content">
-                <p className="dev-copyright">&#169;2020 Benjamin Doggett Dev</p>
+                <p className="dev-copyright">&#169;2020 Benjamin Doggett Dev Portfolio</p>
                 <ul className="nav-list">
                     <li className="list-item">Skills</li>
                     <li className="list-item-break">|</li>
