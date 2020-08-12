@@ -153,7 +153,7 @@ function Skills(props) {
                     />
 
                 </div>
-
+               <button className="learn-btn">Learn More</button>
             </div>
         </div>
     )

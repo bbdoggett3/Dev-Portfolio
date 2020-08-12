@@ -4,7 +4,10 @@
     width: 100vw;
     height: 70vh;
     background-color: $cream;
-    // border-top: solid 20px $cream;
+    border-top: solid 1px lightgrey;
+    box-shadow: 2px 2px 12px 2px black;
+
+
 
     .projects-content {
         display: flex;
@@ -53,6 +56,25 @@
                     font-family: 'Open Sans', sans-serif;
                 }
             }
+    
+        }
+
+        .learn-btn {
+            width: 150px;
+            height: 50px;
+            border-radius: 8px;
+            border: 1px solid black;
+            background-color: black;
+            color:#faf9ed;
+            box-shadow: 4px 2px 5px 2px grey;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+        }
+    
+        .learn-btn:hover {
+            border: 2px solid #eb4034;
+            cursor: pointer;
+            box-shadow: none;
     
         }
     }
