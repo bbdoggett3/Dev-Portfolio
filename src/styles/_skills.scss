@@ -3,7 +3,7 @@
 .skills-container {
     background-color: $cream;
     width: 100vw;
-    height: 40vh;
+    height: 45vh;
     border-top: 1px solid lightgrey;
     box-shadow: 2px 2px 12px 2px black;
 
@@ -121,6 +121,7 @@
         box-shadow: 4px 2px 5px 2px grey;
         font-family: 'Open Sans', sans-serif;
         font-size: 20px;
+        margin: 15px;
     }
 
     .learn-btn:hover {

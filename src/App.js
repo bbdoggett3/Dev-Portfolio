@@ -6,6 +6,8 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
+// import routes from './routes';
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Projects/>
       <About/>
       <Contact/>
+      <Footer />
     </div>
   );
 }

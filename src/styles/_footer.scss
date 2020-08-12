@@ -1,0 +1,17 @@
+.footer-container {
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .dev-copyright {
+            color:white;
+        }
+    }
+}
