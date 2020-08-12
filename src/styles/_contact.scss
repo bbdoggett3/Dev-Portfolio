@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.contact-container {
+    width: 100vw;
+    height: 60vh;
+    background-color: $cream;
+    border-top: solid 1px lightgrey;
+    box-shadow: 2px 2px 12px 2px black;
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .contact-heading {
+            font-size: 34px;
+            margin: 15px;
+            font-family: 'Open Sans', sans-serif;
+            color: black;
+        }
+    }
+}
