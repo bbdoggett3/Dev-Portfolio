@@ -3,7 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 import SkillsMore from './components/SkillsMore';
 import ProjectsMore from './components/ProjectsMore';
 import AboutMore from './components/AboutMore';
-import ContactMore from './components/contactMore';
+import ContactMore from './components/ContactMore';
 import Welcome from './components/Welcome';
 
 export default(

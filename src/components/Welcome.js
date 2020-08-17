@@ -5,6 +5,7 @@ import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
+import { Link } from 'react-router-dom'; 
 
 function Welcome() {
     return(
@@ -39,7 +40,9 @@ function Welcome() {
                             />
                         </a>
                     </div>
-                    <button className="welcome-btn">Contact</button>
+                    <Link to="/contactMore">
+                            <button className="welcome-btn">Contact</button>
+                    </Link>
 
                 </div>
                     <img
