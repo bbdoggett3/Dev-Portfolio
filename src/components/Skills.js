@@ -1,4 +1,5 @@
 import React, {useState}from 'react';
+import { Link } from 'react-router-dom'; 
 
 function Skills(props) {
      const [showSkill, setShowSkill] = useState(false);
@@ -153,7 +154,9 @@ function Skills(props) {
                     />
 
                 </div>
-               <button className="learn-btn">Learn More</button>
+                    <Link to="/skillsMore">
+                         <button className="learn-btn">Learn More</button>
+                    </Link>
             </div>
         </div>
     )
