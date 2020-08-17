@@ -2,8 +2,8 @@ import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 import SkillsMore from './components/SkillsMore';
 import ProjectsMore from './components/ProjectsMore';
-import About from './components/About';
-import Contact from './components/Contact';
+import AboutMore from './components/AboutMore';
+import ContactMore from './components/contactMore';
 import Welcome from './components/Welcome';
 
 export default(
@@ -11,7 +11,7 @@ export default(
         <Route exact path="/" component={Welcome}/>
         <Route path="/skillsMore" component={SkillsMore}/>
         <Route path="/projectsMore" component={ProjectsMore}/>
-        <Route path="/about" component={About}/>
-        <Route path="/contact" component={Contact}/>
+        <Route path="/aboutMore" component={AboutMore}/>
+        <Route path="/contactMore" component={ContactMore}/>
     </Switch>
 );
