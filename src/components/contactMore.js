@@ -67,6 +67,7 @@ function ContactMore() {
                         render="explicit"
                         onloadCallback={recaptchaLoaded}
                         verifyCallback={verifyCallback}
+                        // theme="dark"
                      />
                     <button className="more-submit-btn" onClick={handleSubmit}>Submit</button>
                 </div>
