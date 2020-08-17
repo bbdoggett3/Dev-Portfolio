@@ -13,7 +13,9 @@ function Nav() {
                 <li className="list-item-break">|</li>
                 <li className="list-item">About</li>
                 <li className="list-item-break">|</li>
-                <li className="list-item">Contact</li>
+                <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/contactMore">
+                    <li className="list-item">Contact</li>
+                </Link>
             </ul>
 
         </div>
