@@ -1,8 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from './Footer';
 import Nav from './Nav';
+import Recaptcha from 'react-recaptcha';
 
 function ContactMore() {
+    
+    const [isVerified, setIsVerified] = useState(false) 
+
+    function handleSubmit() {
+        if (isVerified) {
+          alert("You have successfully submitted!")
+        } else {
+          alert("Please verify that you are a human!")
+        }
+      }
+    
+    function recaptchaLoaded() {
+        console.log("capcha successfully loaded")
+      }
+    
+    function verifyCallback(response) {
+        if(response) {
+          setIsVerified(true)
+        }
+      }
+
     return(
         <div className="contact-more-container">
             <Nav/>
@@ -40,7 +62,13 @@ function ContactMore() {
                         type="text"
                         placeholder="Addtional questions you might have for me..."
                     />
-                    <button className="more-submit-btn">Submit</button>
+                    <Recaptcha
+                        sitekey="6LcjHcAZAAAAAHry99oxKYIi_RDGnmbEK7MhSjCK"
+                        render="explicit"
+                        onloadCallback={recaptchaLoaded}
+                        verifyCallback={verifyCallback}
+                     />
+                    <button className="more-submit-btn" onClick={handleSubmit}>Submit</button>
                 </div>
 
             </div>
