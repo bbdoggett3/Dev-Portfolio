@@ -37,6 +37,38 @@
                 color: black;
             }
 
+            .social-media-links {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: center;
+        
+                .welcome-icon-image {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 180px;
+                    margin: 5px;
+                }
+        
+                .welcome-icon-image-linkedin {
+                    width: 121px;
+                    height: 121px;
+                    border-radius: 180px;
+                    margin: 5px;
+                }
+        
+                .welcome-icon-image:hover {
+                    opacity: 0.6;
+                    cursor: pointer;
+                }
+                
+                .welcome-icon-image-linkedin:hover {
+                    opacity: 0.6;
+                    cursor: pointer;
+                }
+            }
+
         }
 
         .contact-more-content {
