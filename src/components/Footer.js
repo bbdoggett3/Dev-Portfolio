@@ -11,10 +11,10 @@ function Footer() {
                     <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/skillsMore"> 
                         <li className="footer-list-item">Skills</li>
                     </Link>
-                    <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/skillsMore">
+                    <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/projectsMore">
                         <li className="footer-list-item">Projects</li>
                     </Link>
-                    <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/skillsMore">
+                    <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/aboutMore">
                         <li className="footer-list-item">About</li>
                     </Link>
                     <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/contactMore">
