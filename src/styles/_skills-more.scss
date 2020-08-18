@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.skills-more-container {
+    background-color: $cream;
+    width: 100vw;
+    height: 100vh;
+    border-top: 1px solid lightgrey;
+    box-shadow: 2px 2px 12px 2px black;
+
+}
+
+.skills-more-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 205px;
+
+    .skills-heading {
+        color: black;
+        font-size: 34px;
+        margin: 15px;
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 65em;
+
+        .skills-images {
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        .skills-images:hover {
+            cursor: pointer;
+            box-shadow: 2px 2px 12px 2px #eb4034;
+        }
+
+        .skill-open {
+            position: absolute;
+            top: 120px;
+            width: 550px;
+            height: 600px;
+            background-color: #faf9ed;
+            border-radius: 8px;
+            box-shadow: 12px 4px 25px 4px black;
+
+            .skill-open-container {
+                display: flex;
+                flex-direction: column;
+
+                .exit-btn-img {
+                    position: absolute;
+                    top: 5px;
+                    right: 5px;
+                    width: 45px;
+                    height: 27px;
+                } 
+
+                .exit-btn-img:hover {
+                    opacity: 0.6;
+                    cursor: pointer;
+                }
+
+                .skill-title-display {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    .skill-image-open {
+                        width: 100px;
+                        height: 100px;
+                        margin: 10px
+                    }
+
+                    .skill-name {
+                        font-weight: bolder;
+                        font-size: 35px;
+                        text-decoration: underline;
+                        font-family: 'Open Sans', sans-serif;
+                    }
+                }
+
+                .skill-what-is-header {
+                    margin: 10px;
+                    font-weight: bolder;
+                    font-size: 20px;
+                    color: #eb4034;
+                    font-family: 'Open Sans', sans-serif;
+                }
+
+                .skill-description {
+                    margin: 10px;
+                }
+
+            }
+        }
+
+        .skill-closed {
+            display: none;
+        }
+    }
+
+    .learn-btn {
+        width: 150px;
+        height: 50px;
+        border-radius: 8px;
+        border: 1px solid black;
+        background-color: black;
+        color:#faf9ed;
+        box-shadow: 4px 2px 5px 2px grey;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        margin: 15px;
+    }
+
+    .learn-btn:hover {
+        border: 2px solid #eb4034;
+        cursor: pointer;
+        box-shadow: none;
+
+    }
+}

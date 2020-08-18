@@ -15,9 +15,9 @@ function SkillsMore() {
      }
 
     return(
-        <div className="skills-container">
+        <div className="skills-more-container">
              <Nav/>
-            <div className="skills-content">
+            <div className="skills-more-content">
                 <h2 className="skills-heading">Skills</h2>
                 
                 <div className="skills">

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.about-more-container {
+    width: 100vw;
+    height: 65vh;
+    background-color: $cream;
+    border-top: solid 1px lightgrey;
+    box-shadow: 2px 2px 12px 2px black;
+
+    .about-more-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .about-more-heading {
+            font-size: 34px;
+            margin: 15px;
+            font-family: 'Open Sans', sans-serif;
+            color: black;
+        }
+
+        .about-more {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .about-more-img {
+                border-radius: 190px;
+                width: 400px;
+                height: 400px;
+                margin: 25px;
+            }
+
+            .about-more-info {
+                color: black;
+                width: 45em;
+            }
+        }
+
+        .learn-more-about-btn {
+            width: 150px;
+            height: 50px;
+            border-radius: 8px;
+            border: 1px solid black;
+            background-color: black;
+            color:#faf9ed;
+            box-shadow: 4px 2px 5px 2px grey;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+        }
+    
+        .learn-more-about-btn:hover {
+            border: 2px solid #eb4034;
+            cursor: pointer;
+            box-shadow: none;
+    
+        }
+
+    }
+}
