@@ -16,9 +16,13 @@ function Nav() {
                     <li className="list-item">Skills</li>
                 </Link>
                 <li className="list-item-break">|</li>
+                <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/projectsMore">
                 <li className="list-item">Projects</li>
+                </Link>
                 <li className="list-item-break">|</li>
+                <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/aboutMore">
                 <li className="list-item">About</li>
+                </Link>
                 <li className="list-item-break">|</li>
                 <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/contactMore">
                     <li className="list-item">Contact</li>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 
 function Projects() {
     return(
@@ -32,7 +33,9 @@ function Projects() {
                     </div>
 
                 </div>
-                <button className="learn-btn">Learn More</button>
+                <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/projectsMore">
+                    <button className="learn-btn">Learn More</button>
+                </Link>
             </div>
         </div>
     )

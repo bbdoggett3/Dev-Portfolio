@@ -1,6 +1,8 @@
-import React, {useState}from 'react';
+import React, { useState } from 'react';
+import Nav from './Nav';
+import Footer from './Footer';
 
-function SkillsMore(props) {
+function SkillsMore() {
      const [showSkill, setShowSkill] = useState(false);
      const [showHTML, setHTML] = useState(false);
      
@@ -14,10 +16,12 @@ function SkillsMore(props) {
 
     return(
         <div className="skills-container">
+             <Nav/>
             <div className="skills-content">
                 <h2 className="skills-heading">Skills</h2>
+                
                 <div className="skills">
-                    <img className="skills-images"
+                <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fjavascript-icon.png?v=1594835510447" 
                          alt="javascript logo"
                          onClick={() => toggleShowSkill()}   
@@ -44,6 +48,7 @@ function SkillsMore(props) {
 
                          </div>
                     </div>
+
 
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fhtml.png?v=1596218814366" 
@@ -72,6 +77,7 @@ function SkillsMore(props) {
 
                          </div>
                     </div>
+
                     {/* Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. */}
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FCss.png?v=1596218908795" 
@@ -153,8 +159,9 @@ function SkillsMore(props) {
                     />
 
                 </div>
-               <button className="learn-btn">Learn More</button>
+
             </div>
+            <Footer/>
         </div>
     )
 }
