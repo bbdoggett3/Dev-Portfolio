@@ -7,7 +7,7 @@ function Nav() {
              <Link to="/">
                 <img
                     className="nav-home-img" 
-                    src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fgundam.png?v=1597783546563" 
+                    src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fburger.png?v=1597860553700" 
                     alt="profile of Developer"
                 />
              </Link>

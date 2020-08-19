@@ -7,7 +7,7 @@ function AboutMore() {
         <div className="about-more-container">
             <Nav/>
             <div className="about-more-content">
-                <h2 className="about-more-heading">About</h2>
+                <h2 className="about-more-heading">About Me</h2>
                 <div className="about-more">
                     <img
                         className="about-more-img"
