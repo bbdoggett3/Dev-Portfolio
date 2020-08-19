@@ -15,9 +15,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 205px;
+    margin: 255px;
 
-    .skills-heading {
+    .skills-more-heading {
+        position: absolute;
+        top: 80px;
         color: black;
         font-size: 34px;
         margin: 15px;
@@ -47,13 +49,12 @@
 
         .skill-open {
             position: absolute;
-            top: 120px;
-            width: 550px;
-            height: 600px;
+            top: 190px;
+            width: 350px;
+            height: 130px;
             background-color: #faf9ed;
             border-radius: 8px;
             box-shadow: 12px 4px 25px 4px black;
-            transition: 2;
 
             .skill-open-container {
                 display: flex;
@@ -131,5 +132,12 @@
         cursor: pointer;
         box-shadow: none;
 
+    }
+
+    .click-skill-para {
+        top: 150px;
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        margin: 5px;
     }
 }

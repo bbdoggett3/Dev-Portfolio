@@ -18,8 +18,8 @@ function SkillsMore() {
         <div className="skills-more-container">
              <Nav/>
             <div className="skills-more-content">
-                <h2 className="skills-heading">Skills</h2>
-                
+                <h2 className="skills-more-heading">Skills</h2>
+                <p className="click-skill-para">Click a skill to see name.</p>
                 <div className="skills">
                 <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fjavascript-icon.png?v=1594835510447" 
@@ -41,14 +41,8 @@ function SkillsMore() {
                                    />
                                    <h1 className="skill-name">JavaScript</h1>
                               </div>
-                              <h3 className="skill-what-is-header">What is JavaScript?</h3>
-                              <p className="skill-description">JavaScript is the Programming Language for the Web. It can update and change both HTML and CSS. Lastly, it can calculate, manipulate and validate data. </p>
-                              <h3 className="skill-what-is-header">Personal Application</h3>
-                              <p className="skill-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
-
                          </div>
                     </div>
-
 
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fhtml.png?v=1596218814366" 
@@ -70,11 +64,8 @@ function SkillsMore() {
                                    />
                                    <h1 className="skill-name">HTML5</h1>
                               </div>
-                              <h3 className="skill-what-is-header">What is HTML5?</h3>
-                              <p className="skill-description">Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. </p>
-                              <h3 className="skill-what-is-header">Personal Application</h3>
-                              <p className="skill-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
-
+                              {/* <h3 className="skill-what-is-header">What is HTML5?</h3>
+                              <p className="skill-description">Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. </p> */}
                          </div>
                     </div>
 

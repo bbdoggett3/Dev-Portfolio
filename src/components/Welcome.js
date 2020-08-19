@@ -1,9 +1,9 @@
 import React from 'react';
 import Nav from './Nav';
 import Skills from './Skills';
-import Projects from './Projects';
-import About from './About';
-import Contact from './Contact';
+// import Projects from './Projects';
+// import About from './About';
+// import Contact from './Contact';
 import Footer from './Footer';
 import { Link } from 'react-router-dom'; 
 
@@ -55,9 +55,6 @@ function Welcome() {
                     />
             </div>
             <Skills/>
-            <Projects/>
-            <About/>
-            <Contact/>
             <Footer />
         </div>
     )
