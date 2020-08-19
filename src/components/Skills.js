@@ -1,17 +1,8 @@
-import React, {useState}from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom'; 
 
 function Skills(props) {
-     const [showSkill, setShowSkill] = useState(false);
-     const [showHTML, setHTML] = useState(false);
-     
-     function toggleShowSkill() {
-          setShowSkill(!showSkill);
-     }
 
-     function toggleHTML() {
-          setHTML(!showHTML);
-     }
 
     return(
         <div className="skills-container">
@@ -20,59 +11,14 @@ function Skills(props) {
                 <div className="skills">
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fjavascript-icon.png?v=1594835510447" 
-                         alt="javascript logo"
-                         onClick={() => toggleShowSkill()}   
+                         alt="javascript logo"  
                     />
-
-                    {/* <div className= {`${showSkill ? "skill-open" : "skill-closed"}`}>
-                         <div className="skill-open-container">
-                              <img className="exit-btn-img"
-                                   src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fexit-%20trans.png?v=1596319300952" 
-                                   alt="exit"
-                                   onClick={() => toggleShowSkill()}
-                              />
-                              <div className="skill-title-display">
-                                   <img className="skill-image-open"
-                                        src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fjavascript-icon.png?v=1594835510447" 
-                                        alt="javascript logo"
-                                   />
-                                   <h1 className="skill-name">JavaScript</h1>
-                              </div>
-                              <h3 className="skill-what-is-header">What is JavaScript?</h3>
-                              <p className="skill-description">JavaScript is the Programming Language for the Web. It can update and change both HTML and CSS. Lastly, it can calculate, manipulate and validate data. </p>
-                              <h3 className="skill-what-is-header">Personal Application</h3>
-                              <p className="skill-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
-
-                         </div>
-                    </div> */}
 
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fhtml.png?v=1596218814366" 
                          alt="html logo"
-                         onClick={() => toggleHTML()}
                     />
 
-                    {/* <div className= {`${showHTML ? "skill-open" : "skill-closed"}`}>
-                         <div className="skill-open-container">
-                              <img className="exit-btn-img"
-                                   src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fexit-%20trans.png?v=1596319300952" 
-                                   alt="exit"
-                                   onClick={() => toggleHTML()}
-                              />
-                              <div className="skill-title-display">
-                                   <img className="skill-image-open"
-                                        src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fhtml.png?v=1596218814366" 
-                                        alt="html logo"
-                                   />
-                                   <h1 className="skill-name">HTML5</h1>
-                              </div>
-                              <h3 className="skill-what-is-header">What is HTML5?</h3>
-                              <p className="skill-description">Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. </p>
-                              <h3 className="skill-what-is-header">Personal Application</h3>
-                              <p className="skill-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
-
-                         </div>
-                    </div> */}
                     {/* Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. */}
                     <img className="skills-images"
                          src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FCss.png?v=1596218908795" 
