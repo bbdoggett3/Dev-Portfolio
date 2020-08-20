@@ -22,11 +22,13 @@ function ProjectsMore() {
                         <h2 className="project-more-title">HeartTaken</h2>
                     </div>
                     <div className="projects-more-info">
+                    <Link to="/pound">
                         <img
                             className="project-more-img" 
                             src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FLanding%20FINAL%20component.png?v=1595264619244"
                             alt="codepound website" 
                         />
+                    </Link>
                         <h2 className="project-more-title">Codepound</h2>                        
                     </div>
                     <div className="projects-more-info">
