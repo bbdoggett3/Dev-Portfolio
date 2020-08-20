@@ -5,6 +5,7 @@ import ProjectsMore from './components/ProjectsMore';
 import AboutMore from './components/AboutMore';
 import ContactMore from './components/ContactMore';
 import Welcome from './components/Welcome';
+import Heart from './components/Heart';
 
 export default(
     <Switch>
@@ -13,5 +14,6 @@ export default(
         <Route path="/projectsMore" component={ProjectsMore}/>
         <Route path="/aboutMore" component={AboutMore}/>
         <Route path="/contactMore" component={ContactMore}/>
+        <Route path="/heart" component={Heart}/>
     </Switch>
 );
