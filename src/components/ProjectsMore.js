@@ -32,11 +32,13 @@ function ProjectsMore() {
                         <h2 className="project-more-title">Codepound</h2>                        
                     </div>
                     <div className="projects-more-info">
+                    <Link to="/family">
                         <img
                             className="project-more-img" 
                             src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FSDD.png?v=1597081124404"
                             alt="Software design document" 
                         />
+                    </Link>
                         <h2 className="project-more-title">SDD Family Finance</h2>                        
                     </div>
 
