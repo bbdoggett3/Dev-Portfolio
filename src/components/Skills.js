@@ -201,6 +201,7 @@ function Skills(props) {
 
                 </div>
             </div>
+                <hr/>
         </div>
     )
 }

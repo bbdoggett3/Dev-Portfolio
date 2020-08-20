@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
-// .nav-container {
-
-// }
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;
+}
 
 .nav-home-img {
     width: 80px;
     height: 80px;
-    position: absolute;
-    left: 45px;
-    top: 7px;
 }
 
 .nav-home-img:hover {
@@ -42,7 +43,8 @@
 }
 
 .list-item:hover {
-    text-decoration: underline #eb4034;
+    color: #eb4034;
     cursor: pointer;
+    transition: 0.4s;
 }
 
