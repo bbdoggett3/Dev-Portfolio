@@ -34,12 +34,21 @@
                 width: 400px;
                 height: 400px;
                 margin: 25px;
+                box-shadow: 2px 11px 15px 2px black;
             }
 
             .about-more-info {
                 color: black;
                 width: 45em;
             }
+        }
+
+        .btn-column {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
         }
 
         .learn-more-about-more-btn {
@@ -52,6 +61,7 @@
             box-shadow: 4px 2px 5px 2px grey;
             font-family: 'Open Sans', sans-serif;
             font-size: 20px;
+            margin:10px;
         }
     
         .learn-more-about-more-btn:hover {
