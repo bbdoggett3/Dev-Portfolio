@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 function Heart() {
     return(
@@ -18,6 +19,9 @@ function Heart() {
                         <a href="https://github.com/bbdoggett3/HeartTaken" target="_blank" rel="noopener noreferrer">
                             <button className="heart-btn">Github Repo</button>
                         </a>
+                        <Link style={{ textDecoration: "none", color: "blue" }} to="/projectsMore">
+                            <p className="back-btn">Back to Projects</p>
+                        </Link>
                     </div>
                     <img
                             className="heart-project-img" 

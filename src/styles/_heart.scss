@@ -66,6 +66,19 @@
                     cursor: pointer;
                     box-shadow: none;
                 }
+
+                .back-btn {
+                    font-size: 20px;
+                    text-align: center;
+                    margin: 15px;
+                    text-decoration: underline;
+                }
+
+                .back-btn:hover {
+                    cursor: pointer;
+                    color: $red;
+                    text-decoration: underline;
+                }
             }
 
             .heart-project-img {
