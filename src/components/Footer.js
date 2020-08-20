@@ -8,9 +8,6 @@ function Footer() {
                 <p className="dev-copyright">&#169;2020 Benjamin Doggett Dev Portfolio</p>
                 <ul className="footer-nav-list">
                     <li className="list-item-break">|</li>
-                    <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/skillsMore"> 
-                        <li className="footer-list-item">Skills</li>
-                    </Link>
                     <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/projectsMore">
                         <li className="footer-list-item">Projects</li>
                     </Link>

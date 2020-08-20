@@ -13,9 +13,11 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: 88px;
+        margin: 140px;
 
         .about-more-heading {
+            position: absolute;
+            top: 95px;
             font-size: 34px;
             margin: 15px;
             font-family: 'Open Sans', sans-serif;

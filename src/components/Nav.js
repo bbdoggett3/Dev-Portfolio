@@ -12,10 +12,6 @@ function Nav() {
                 />
              </Link>
             <ul className="nav-list">
-                <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/skillsMore">
-                    <li className="list-item">Skills</li>
-                </Link>
-                <li className="list-item-break">|</li>
                 <Link style={{ textDecoration: "none", color: "#faf9ed" }} to="/projectsMore">
                 <li className="list-item">Projects</li>
                 </Link>
