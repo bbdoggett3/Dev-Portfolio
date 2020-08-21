@@ -2,18 +2,26 @@ import React, { useState } from 'react';
 import Footer from './Footer';
 import Nav from './Nav';
 import Recaptcha from 'react-recaptcha';
+import axios from 'axios';
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css'
 
+toast.configure();
 function ContactMore() {
     
-    const [isVerified, setIsVerified] = useState(false) 
+    const [isVerified, setIsVerified] = useState(false);
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [company, setCompany] = useState("");
+    const [message, setMessage] = useState("");
 
-    function handleSubmit() {
-        if (isVerified) {
-          alert("You have successfully submitted!")
-        } else {
-          alert("Please verify that you are a human!")
-        }
-      }
+    // function handleSubmit() {
+    //     if (isVerified) {
+    //       alert("You have successfully submitted!")
+    //     } else {
+    //       alert("Please verify that you are a human!")
+    //     }
+    //   }
     
     function recaptchaLoaded() {
         console.log("capcha successfully loaded")
@@ -65,39 +73,69 @@ function ContactMore() {
                     </div>
                 </div>
 
-                <div className="contact-more-content">
-                    <p className="contact-more-please">*Please fill out the information below, thank you!</p>
-                    <input
-                        className="more-input-field"
-                        type="text"
-                        placeholder="Name"  
-                    />
-                    <input
-                        className="more-input-field"
-                        type="email"
-                        placeholder="Email"  
-                    />
-                    <input
-                        className="more-input-field"
-                        type="email"
-                        placeholder="Company"  
-                    />
-                    <textarea
-                        className="more-text-box"
-                        type="text"
-                        placeholder="Addtional questions you might have for me..."
-                    />
-                    <Recaptcha
-                        sitekey="6LcjHcAZAAAAAHry99oxKYIi_RDGnmbEK7MhSjCK"
-                        render="explicit"
-                        onloadCallback={recaptchaLoaded}
-                        verifyCallback={verifyCallback}
-                        // theme="dark"
-                     />
-                    <button className="more-submit-btn" onClick={handleSubmit}>Submit</button>
-                </div>
+                <form>
+                    <div className="contact-more-content">
+                        <p className="contact-more-please">*Please fill out the information below, thank you!</p>
+                        <input
+                            onChange={(event) => {
+                                setName(event.target.value)
+                            }}
+                            className="more-input-field"
+                            type="text"
+                            placeholder="Name"
+                            value={name}  
+                        />
+                        <input
+                            onChange={(event) => {
+                                setEmail(event.target.value)
+                            }}
+                            className="more-input-field"
+                            type="email"
+                            placeholder="Email"
+                            value={email}  
+                        />
+                        <input
+                            onChange={(event) => {
+                                setCompany(event.target.value)
+                            }}
+                            className="more-input-field"
+                            type="text"
+                            placeholder="Company"
+                            value={company}  
+                        />
+                        <textarea
+                            onChange={(event) => {
+                                setMessage(event.target.value)
+                            }}
+                            className="more-text-box"
+                            type="text"
+                            placeholder="Addtional questions you might have for me..."
+                            value={message}
+                        />
+                        <Recaptcha
+                            sitekey="6LcjHcAZAAAAAHry99oxKYIi_RDGnmbEK7MhSjCK"
+                            render="explicit"
+                            onloadCallback={recaptchaLoaded}
+                            verifyCallback={verifyCallback}
+                            // theme="dark"
+                        />
+                        <button className="more-submit-btn"
+                                onClick={() => {
+                                    axios.post("/api/mail", {name, email, company, message});
+                                    toast.info("Thank-you, talk to you Soon!", {
+                                        position: toast.POSITION.TOP_CENTER,
+                                      });
+                                      setName("");
+                                      setEmail("");
+                                      setCompany("");
+                                      setMessage("");
+                                }}
+                        >Submit</button>
+                    </div>
+                </form>
 
             </div>
+            <ToastContainer autoClose={8000} />
             <Footer/>
         </div>
     )
