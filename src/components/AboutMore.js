@@ -27,6 +27,7 @@ function AboutMore() {
                         <button className="learn-more-about-more-btn">Personal Life</button>
                         </div>
                         <div className="btn-content">
+                        {/* Icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>  */}
                             <img
                                 className="about-more-img"
                                 src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Ffile%20Icon.png?v=1598151288760"
