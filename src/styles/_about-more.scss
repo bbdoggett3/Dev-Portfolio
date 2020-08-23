@@ -13,7 +13,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: 140px;
+        margin: 180px;
 
         .about-more-heading {
             position: absolute;
@@ -32,11 +32,9 @@
             align-items: center;
 
             .about-more-img {
-                border-radius: 4px;
-                width: 400px;
-                height: 400px;
-                margin: 25px;
-                box-shadow: 2px 5px 15px 2px black;
+                width: 200px;
+                height: 200px;
+                margin: 0 auto;
             }
 
             .about-more-info {
@@ -47,7 +45,7 @@
 
         .btn-column {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
             align-content: center;
@@ -55,10 +53,11 @@
 
         .btn-content {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
             justify-content: center;
             align-content: center;
+            margin: 50px;
         }
 
         .learn-more-about-more-btn {
