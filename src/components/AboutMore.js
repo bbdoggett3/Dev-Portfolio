@@ -20,19 +20,19 @@ function AboutMore() {
                     <div className="btn-column">
                         <div className="btn-content">
                             <button className="learn-more-about-more-btn">Professional Life</button>
-                            <img
+                            {/* <img
                                 className="btn-more-img"
                                 src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fghost%20professional%20trans.png?v=1597899938677"
                                 alt="Smiling Developer"
-                            />
+                            /> */}
                         </div>
                         <div className="btn-content">
                         <button className="learn-more-about-more-btn">Personal Life</button>
-                        <img
+                        {/* <img
                             className="btn-more-img"
                             src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fghost%20personal%20trans.png?v=1597900082614"
                             alt="Smiling Developer"
-                        />
+                        /> */}
                         </div>
                     <a href="./doc/Benjamin Doggett Technical Resume.docx" download>
                         <button className="learn-more-about-more-btn">Download Resume</button>
