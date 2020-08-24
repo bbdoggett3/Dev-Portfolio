@@ -36,7 +36,6 @@ function ContactMore() {
     return(
         <div className="contact-more-container">
             <Nav/>
-            {/* <h2 className="contact-more-heading">Contact</h2> */}
             <div className="contact-more-page">
                 <div className="contact-more-general-section">
                     <p className="contact-more-info">If you have any questions regarding my technical experience, projects, or would just like to get to know me better, please reach out to me by filling in the form on your right. You can also reach me by clicking the social media links below. Can’t wait to meet you!</p>
