@@ -59,7 +59,7 @@ function AboutMore() {
                          <div className="about-open-container">
                             <img
                                 className="about-open-img"
-                                src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Ffile%20Icon.png?v=1598151288760"
+                                src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FBen%20Squared.png?v=1597181570543"
                                 alt="Resume Icon"
                                 />
                             <p>This is Professional open</p>
@@ -69,7 +69,7 @@ function AboutMore() {
                          <div className="about-open-container">
                             <img
                                 className="about-open-img"
-                                src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Ffile%20Icon.png?v=1598151288760"
+                                src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FBen%20and%20Liv%20family%202020.jpg?v=1598390437998"
                                 alt="Resume Icon"
                                 />
                             <p>This is Personal open</p>

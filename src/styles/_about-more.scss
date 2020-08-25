@@ -85,7 +85,11 @@
         }
 
         .about-open {
-            // background-color: $cream;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
 
             .about-open-container {
                 display: flex;
@@ -95,8 +99,8 @@
                 align-content: center;
 
                 .about-open-img {
-                    width: 200px;
-                    height: 200px;
+                    width: 350px;
+                    height: 350px;
                 }
             }
         }
