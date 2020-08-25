@@ -62,7 +62,17 @@ function AboutMore() {
                                 src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Ffile%20Icon.png?v=1598151288760"
                                 alt="Resume Icon"
                                 />
-                            <p>This is open</p>
+                            <p>This is Professional open</p>
+                         </div>
+                    </div>
+                    <div className= {`${showPersonal ? "about-open" : "about-closed"}`}>
+                         <div className="about-open-container">
+                            <img
+                                className="about-open-img"
+                                src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Ffile%20Icon.png?v=1598151288760"
+                                alt="Resume Icon"
+                                />
+                            <p>This is Personal open</p>
                          </div>
                     </div>
             </div>
