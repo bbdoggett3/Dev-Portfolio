@@ -8,8 +8,6 @@ function ProjectsMore() {
         <div className="projects-more-container">
             <Nav/>
             <div className="projects-more-content">
-                {/* <h2 className="projects-more-heading">Projects</h2> */}
-                <p className="projects-more-para">Click on a project for more details. Hope you enjoy!</p>
                 <div className="projects-more">
                     <div className="projects-more-info">
                     <Link to="/heart">
