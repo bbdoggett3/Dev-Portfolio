@@ -84,5 +84,26 @@
             height: 60px;
         }
 
+        .about-open {
+            // background-color: $cream;
+
+            .about-open-container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+
+                .about-open-img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+
+        .about-closed {
+            display: none;
+        }
+
     }
 }
