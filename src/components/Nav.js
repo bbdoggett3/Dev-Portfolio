@@ -8,7 +8,7 @@ function Nav() {
                 <img
                     className="nav-home-img" 
                     src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Fburger.png?v=1597860553700" 
-                    alt="profile of Developer"
+                    alt="hamburger"
                 />
              </Link>
             <ul className="nav-list">

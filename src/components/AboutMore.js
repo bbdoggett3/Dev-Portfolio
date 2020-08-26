@@ -47,7 +47,7 @@ function AboutMore() {
                             <img
                                 className="about-more-img"
                                 src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Ffile%20Icon.png?v=1598151288760"
-                                alt="Resume Icon"
+                                alt="Me profile"
                             />
                     <a href="https://drive.google.com/file/d/1NvtrHyQR2nSpaZx2KEq4cjQLPls5XtFB/view?usp=sharing"
                     target="_blank" rel="noopener noreferrer">
@@ -61,7 +61,7 @@ function AboutMore() {
                             <img
                                 className="about-open-img"
                                 src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FBen%20Squared.png?v=1597181570543"
-                                alt="Resume Icon"
+                                alt="family profile"
                                 />
                             <p className="about-open-para">My name is Benjamin Doggett, I recently graduated from DevMountain as a certified Full stack web developer, & Brigham Young University- Idaho with a Bachelors's degree in Software Engineering. I have high hopes to further that degree/skills with industry experience along with self-taught applications of new technologies. I'm a Proven leader with more than 8 years’ experience in managerial roles, administration, training, and facilitating demands/ goals. A results-oriented, hardworking, resourceful leader with the ability to manage in a diverse environment. Experienced in balancing the needs of the individual and company demands. Skilled communicator and trainer. Proficient at flexing and bending with change. Excels in a team environment, as well as hiring and building team relationships to accomplish organizational programming objectives and goals.</p>
                          </div>
@@ -76,6 +76,11 @@ function AboutMore() {
                             <p className="about-open-para">My name is Benjamin Doggett, I recently graduated from DevMountain as a certified Full stack web developer, & Brigham Young University- Idaho with a Bachelors's degree in Software Engineering. I have high hopes to further that degree/skills with industry experience along with self-taught applications of new technologies. I'm a Proven leader with more than 8 years’ experience in managerial roles, administration, training, and facilitating demands/ goals. A results-oriented, hardworking, resourceful leader with the ability to manage in a diverse environment. Experienced in balancing the needs of the individual and company demands. Skilled communicator and trainer. Proficient at flexing and bending with change. Excels in a team environment, as well as hiring and building team relationships to accomplish organizational programming objectives and goals.</p>
                          </div>
                     </div>
+                            <img
+                                className="about-img"
+                                src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FFlaming%20March%20Trans.png?v=1598465023795"
+                                alt="marshmellow on fire"
+                            />
             </div>
         <Footer/>
         {/* Icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>  */}

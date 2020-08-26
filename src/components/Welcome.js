@@ -51,11 +51,11 @@ function Welcome() {
                 </a>
 
                 </div>
-                    {/* <img
+                    <img
                         className="welcome-profile-image" 
-                        src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FBob%20tran.png?v=1597085547572" 
+                        src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FFlaming%20March%20Trans.png?v=1598465023795" 
                         alt="profile of Developer"
-                    /> */}
+                    />
             </div>
             <Skills/>
             <Footer />
