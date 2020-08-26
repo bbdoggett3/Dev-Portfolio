@@ -2,10 +2,9 @@
 
 .about-container {
     width: 100vw;
-    height: 65vh;
+    height: 100vh;
     background-color: $cream;
     border-top: solid 1px lightgrey;
-    box-shadow: 2px 2px 12px 2px black;
 
     .about-content {
         display: flex;
@@ -21,6 +20,11 @@
             color: black;
         }
 
+        .about-logo {
+            height: 300px;
+            width:250px;
+        }
+
         .about {
             display: flex;
             flex-direction: row;
@@ -29,7 +33,7 @@
             align-items: center;
 
             .about-img {
-                border-radius: 190px;
+                // border-radius: 190px;
                 width: 400px;
                 height: 400px;
                 margin: 25px;
