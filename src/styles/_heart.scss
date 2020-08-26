@@ -12,7 +12,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
-        margin: 100px;
+        // margin: 100px;
 
         .heart-landing {
             display: flex;
@@ -67,17 +67,15 @@
                     box-shadow: none;
                 }
 
-                .back-btn {
-                    font-size: 20px;
-                    text-align: center;
+                .back-arrow {
+                    width: 190px;
+                    height: 100px;
                     margin: 15px;
-                    text-decoration: underline;
                 }
 
-                .back-btn:hover {
+                .back-arrow:hover {
                     cursor: pointer;
-                    color: $red;
-                    text-decoration: underline;
+                    transform: rotate(10deg);
                 }
             }
 

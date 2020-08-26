@@ -17,7 +17,7 @@ function ProjectsMore() {
                             alt="hearttaken website" 
                         />
                     </Link>
-                        <h2 className="project-more-title">HeartTaken</h2>
+                        
                     </div>
                     <div className="projects-more-info">
                     <Link to="/pound">
@@ -27,7 +27,7 @@ function ProjectsMore() {
                             alt="codepound website" 
                         />
                     </Link>
-                        <h2 className="project-more-title">Codepound</h2>                        
+                                                
                     </div>
                     <div className="projects-more-info">
                     <Link to="/family">
@@ -37,7 +37,7 @@ function ProjectsMore() {
                             alt="Software design document" 
                         />
                     </Link>
-                        <h2 className="project-more-title">SDD Family Finance</h2>                        
+                                               
                     </div>
 
                 </div>

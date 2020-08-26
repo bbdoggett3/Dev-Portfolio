@@ -49,8 +49,9 @@ function AboutMore() {
                                 src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2Ffile%20Icon.png?v=1598151288760"
                                 alt="Resume Icon"
                             />
-                    <a href="./doc/Benjamin Doggett Technical Resume.docx" download>
-                        <button className="learn-more-about-more-btn">Download Resume</button>
+                    <a href="https://drive.google.com/file/d/1NvtrHyQR2nSpaZx2KEq4cjQLPls5XtFB/view?usp=sharing"
+                    target="_blank" rel="noopener noreferrer">
+                        <button className="learn-more-about-more-btn">View Resume</button>
                     </a>
                     </div>
                     </div>

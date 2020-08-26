@@ -20,7 +20,11 @@ function Pound() {
                             <button className="heart-btn">Github Repo</button>
                         </a>
                         <Link style={{ textDecoration: "none", color: "blue" }} to="/projectsMore">
-                            <p className="back-btn">Back to Projects</p>
+                            <img
+                                className="back-arrow"
+                                src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FBack%20Arrow%20trans.png?v=1598462490345"
+                                alt="cartoon back arrow"
+                            />
                         </Link>
                     </div>
                     <img
