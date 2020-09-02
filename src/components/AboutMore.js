@@ -20,7 +20,7 @@ function About() {
                         alt="Smiling Developer"
                     
                     />
-
+                    {/* Need to change this up to match more of what I do */}
                     <p className="about-info">Hi, my name is Benjamin Doggett. I am a Software Engineer who is passionate about creating fantastic, creative, and useful applications using my skills as an Engineer. The best part about coding is the opportunity to continually learn. I love coding.
 When I’m not found coding, I enjoy spending a majority of my time with my family. My kids are my biggest accomplishment. I love consuming any type of media that has an engaging story this includes: Books, Movies, TV, Video Games, Podcasts, etc… I particularly love character development and the growth that the protagonists endure. It teaches me, real growth doesn’t come easily and thus we should embrace the conflicts of life to grow.
 When I was a kid I wanted to be a cartoonist and still to this day enjoy drawing. I use my artistic itch with coding and designing. I feel so much satisfaction creating and developing works of art. 
