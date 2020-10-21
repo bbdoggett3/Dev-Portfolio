@@ -8,11 +8,7 @@ function About() {
         <div className="about-container">
             <Nav/>
             <div className="about-content">
-                <img
-                    className="about-logo"
-                    src="https://cdn.glitch.com/875fcc3a-ee91-4d48-806c-d5b121d9c21c%2FFlaming%20March%20Trans.png?v=1598465023795"
-                    alt="marshmellow on fire"
-                />
+                
                 <div className="about">
                     <img
                         className="about-img"
