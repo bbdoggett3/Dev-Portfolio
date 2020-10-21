@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 
+//This is the About page
 function About() {
     return(
         <div className="about-container">
