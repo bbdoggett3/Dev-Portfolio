@@ -15,6 +15,7 @@ function ContactMore() {
     const [company, setCompany] = useState("");
     const [message, setMessage] = useState("");
 
+    //NEED TO REVIEW THIS MATERIAL
     // function handleSubmit() {
     //     if (isVerified) {
     //       alert("You have successfully submitted!")
